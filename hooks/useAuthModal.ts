@@ -1,7 +1,5 @@
 import { create } from 'zustand';
 
-import { FC } from 'react'
-
 interface useAuthModalProps {
   isOpen: boolean;
   onOpen: () => void;
